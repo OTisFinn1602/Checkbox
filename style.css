@@ -1,0 +1,8 @@
+body:has(input[name="changeTheme"]:checked){
+    background-image: linear-gradient(to top right, #212477, rgba(48, 1, 28, 0.4));
+}
+
+body:has(input[name="changeTheme"]:checked) .list li{
+    color: #fff;
+    background-image: linear-gradient(to top right, #212477, rgba(48, 1, 28, 0.4));
+}
